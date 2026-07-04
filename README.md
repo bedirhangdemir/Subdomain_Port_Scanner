@@ -13,7 +13,7 @@ Açık kaynak istihbaratı (OSINT) ve aktif ağ taramalarını birleştirerek si
 ## 🛠️ Kurulum
 Bu araç, Python 3 ve Nmap bağımlılıklarına ihtiyaç duyar.
 
-` ` `bash
+```bash
 # Nmap kurulumu (Eğer yüklü değilse)
 sudo apt update && sudo apt install nmap -y
 
