@@ -21,3 +21,14 @@ sudo apt update && sudo apt install nmap -y
 git clone https://github.com/bedirhangdemir/Subdomain_Port_Scanner.git
 cd Subdomain_Port_Scanner
 sudo apt install python3-requests python3-nmap -y
+
+# Temel kullanım (Varsayılan olarak rapor.json oluşturur)
+python3 recon.py -d ornekhedef.com
+
+# Farklı isimde bir çıktı dosyası oluşturmak için
+python3 recon.py -d ornekhedef.com -o sonuc_ornekhedef.json
+
+##⚠️ Yasal Uyarı
+Bu araç tamamen eğitim amaçlıdır ve yetkili sızma testleri için tasarlanmıştır. Sahip olmadığınız veya açık yetkiniz bulunmayan sistemler üzerinde kullanmayın.
+
+Bedirhan Gökdemir tarafından siber güvenlik pratiği için geliştirilmiştir.
