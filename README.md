@@ -32,3 +32,9 @@ python3 recon.py -d ornekhedef.com -o sonuc_ornekhedef.json
 Bu araç tamamen eğitim amaçlıdır ve yetkili sızma testleri için tasarlanmıştır. Sahip olmadığınız veya açık yetkiniz bulunmayan sistemler üzerinde kullanmayın.
 
 Bedirhan Gökdemir tarafından siber güvenlik pratiği için geliştirilmiştir.
+
+## Usage
+
+```bash
+python3 main.py
+```
